@@ -3,44 +3,44 @@
     
         /* color font */
 
-        --global-fonts: #000; /* */
-        --primary-fonts: #fff; /* */
-        --accent-fonts: #FFD723; /* */
-        --accent-secondary-fonts: #B6C197;
-        --primary-secondary-fonts :#1A1A1A; /* */
-        --secondary-fonts: #D9D9D9; /* */
+        --global-fonts: #000; 
+        --primary-fonts: #fff; 
+        --accent-fonts: #FFD723; 
+        --primary-secondary-fonts :#1A1A1A; 
+        --secondary-fonts: #D9D9D9; 
 
 
 
         /* color background */
 
-        --global-background: #fff; /* */
-        --secondary-background: #1a1a1a; /* */
-        --accent-background: #FEBE02; /* */
-        --audio-background: #242424; /* */
-        --play-background: #1C68F0; /* */
+        --global-background: #fff; 
+        --secondary-background: #1a1a1a; 
+        --accent-background: #FEBE02; 
+        --audio-background: #242424; 
+        --play-background: #1C68F0; 
         --decoration-background: #979797;
-        --line-background: #d8d8d840; /* */
-        --discover-bacground: #F5F6F8; /* */
+        --line-background: #d8d8d840; 
+        --discover-bacground: #F5F6F8; 
 
         /* color border */
 
-        --primary-border: #000; /* */
-        --global-border: #fff; /* */
-        --secondary-border: #D8D8D8; /* */
+        --primary-border: #000; 
+        --global-border: #fff; 
+        --secondary-border: #D8D8D8; 
 
     /* font size */
-       --xxs-size-fonts: 11px; /* */
-       --xs-size-fonts: 13px; /* */
-       --s-size-fonts: 14px; /* */
-       --m-size-fonts: 15px; /* */
-       --sml-size-fonts: 17px; /* */
-       --ml-size-fonts: 20px; /* */
-       --l-size-fonts: 24px; /* */
-       --lm-size-fonts: 25px; /* */
-       --ll-size-fonts: 35px; /* */ 
-       --ssxl-size-fonts: 50px; /* */
-       --sxl-size-fonts: 90px; /* */
-       --xl-size-fonts: 110px; /* */
+
+       --xxs-size-fonts: 11px; 
+       --xs-size-fonts: 13px; 
+       --s-size-fonts: 14px; 
+       --m-size-fonts: 15px; 
+       --sml-size-fonts: 17px; 
+       --ml-size-fonts: 20px; 
+       --l-size-fonts: 24px; 
+       --lm-size-fonts: 25px; 
+       --ll-size-fonts: 35px;  
+       --ssxl-size-fonts: 50px; 
+       --sxl-size-fonts: 90px; 
+       --xl-size-fonts: 110px; 
 
 }
