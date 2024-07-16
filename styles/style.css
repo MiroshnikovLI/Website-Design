@@ -101,7 +101,7 @@ img {
     height: 68px;
     margin-top: 35px;
     margin-left: 20px;
-    background-image: url(../image/Dot_Ornament.png);
+    background-image: url(./image/Dot_Ornament.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -258,7 +258,7 @@ img {
         height: 18px;
         top: 32px;
         left: 35px;
-        background-image: url(../image/Arrow.png);
+        background-image: url(./image/Arrow.png);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -695,7 +695,7 @@ img {
     right: 0;
     width: 25px;
     height: 25px;
-    background-image: url(../image/Group_4.png);
+    background-image: url(./image/Group_4.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
