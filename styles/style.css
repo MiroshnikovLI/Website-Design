@@ -41,54 +41,21 @@ img {
     object-position: center;
 }
 
-.vertical-line {
-    grid-row: 1 / end;
-    width: 0.25px;
-    background-color: var(--line-background);
-    list-style: none;
+.vertical-lines {
+    background-image: url(./image/Line.svg);
+    background-position: center;
+    background-size: 1080px;
+    background-repeat: no-repeat;
 }
 
-.vertical-line--position1 {
-    grid-column: 4 /4;
-    margin-left: 36px;
-}
-
-.vertical-line--position2 {
-    grid-column-start: 27;
-    margin-left: 12px;
-}
-
-.vertical-line--position3 {
-    grid-column-start: 12;
-    margin-left: 12px;
-}
-
-.vertical-line--position4 {
-    grid-column-start: 16;
-}
-
-.vertical-line--position5 {
-    grid-column-start: 19;
-    margin-left: 36px;
-}
-
-.vertical-line--position6 {
-    grid-column-start: 8;
-    margin-left: 25px;
-}
-
-.vertical-line--position7 {
-    grid-column-start: 23;
-    margin-left: 25px;
-}
 
 .decoration-box {
     grid-column: 27 / end;
     grid-row: 15 / 20;
     display: block;
     width: 180px;
-    height: 178px;
-    margin-top: 18px;
+    height: 180px;
+    margin-top: 17px;
     margin-left: 12px;
     background-color: var(--decoration-background);
 }
@@ -245,19 +212,19 @@ img {
     grid-row: 11 / 16;
     display: block;
     position: relative;
-    margin-top: 31px;
-    margin-left: 25px;
-    width: 179px;
-    height: 179px;
+    margin-top: 29px;
+    margin-left: 24px;
+    width: 180px;
+    height: 180px;
     background-color: var(--accent-background);
 
     &::before {
         content: "";
         position: absolute;
-        width: 18px;
-        height: 18px;
-        top: 32px;
-        left: 35px;
+        width: 19px;
+        height: 19px;
+        top: 29px;
+        left: 31px;
         background-image: url(./image/Arrow.png);
         background-position: center;
         background-size: contain;
@@ -287,21 +254,21 @@ img {
     grid-column: 16 / 28;
     grid-row: 19 /25;
     display: flex;
-    margin-top: 4px;
+    margin-top: 5px;
 }
 
 .box-album--twoo {
     grid-column: 12 /16;
     grid-row: 22 / 27;
     position: relative;
-    margin-top: 40px;
-    margin-left: 12px;
+    margin-top: 42px;
+    margin-left: 13px;
 }
 
 .box-album--tree {
     grid-column: 4 / 13;
     grid-row: 15 / 25;
-    margin-top: 16px;
+    margin-top: 18px;
     margin-left: 36px;
 }
 
@@ -313,11 +280,16 @@ img {
 .box-album__image {
     display: block;
     position: relative;
-    width: 360px;
+    width: 361px;
     height: 360px;
 }
 
-.box-album__image--size {
+.box-album__image--size1 {
+    width: 179px;
+    height: 179px;
+}
+
+.box-album__image--size2 {
     width: 180px;
     height: 180px;
 }
@@ -454,13 +426,14 @@ img {
 }
 
 .card__list-items--size {
-    width: 360px;
-    height: 614px;
+    width: 365px;
+    height: 615px;
 }
 
 .card__list-items--position1 {
     grid-column: 4/ 16;
     grid-row: 10 / 22;
+    margin-top: -2px;
     margin-left: 31px;
 }
 
@@ -474,17 +447,23 @@ img {
 .card__list-items--position3 {
     grid-column: 4 / 13;
     grid-row: 25 / 38;
-    margin-top: 11px;
+    margin-top: 10px;
     margin-left: 31px;
 }
 
 .card__list-items--position4 {
     grid-column-start: 16;
     grid-row-start: 29;
+    margin-left: -4px;
 }
 
 .card__list-items-block {
     width: 100%;
+    height: 360px;
+}
+
+.card__list-items-block--size {
+    width: 540px;
     height: 360px;
 }
 
